@@ -8,6 +8,59 @@ html, body{
     color: #0e0d0d;
     
 }
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #e1eeac;
+}
+.fn{
+    margin-right: 100px;
+    color: rgb(160, 67, 67);
+    font-size: 40px bold;
+    font-style: italic;
+    border-radius: 30px;
+}
+.fn:hover{
+    animation: glow 0.3s infinite;
+}
+@keyframes glow{
+    0%,100%{
+        box-shadow: 0 0 40px rgb(126, 5, 248);
+    }
+    50%{
+        box-shadow: 0 0 40px rgb(0, 0, 0);
+    }
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-inline: 20px;
+    font-size: 20px;
+
+}
+ul li a:hover{
+    border-bottom: 4px solid rgb(70, 10, 219);
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+ul button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(220, 156, 29);
+    border-radius: 10px;
+    color: #0d0404;
+    font-size: 20px;
+    border: none;
+}
+button:hover{
+   cursor: pointer;
+    transition: 0.2s ease-in;
+    background: linear-gradient(var(--x),#520de8,#0e1538,#edb40b);
+}
 .img1{
     background-image: url(images/img1.avif);
     min-height: 100%;
@@ -59,8 +112,8 @@ html, body{
     padding: 50px 90px;
 }
 .light{
-    background-color: #fff;
-    color: #666;
+    background-color: #464f4e;
+    color: #f0e9e9;
 }
 .dark{
     background-color: #383636;
@@ -70,12 +123,17 @@ footer{
     margin: 50px;
     text-align: end;
     height: 50px;
+    
    
     
 }
 .footerContainer{
-    text-align:start;
-    justify-content: end;
+    display: flex;
+    margin-inline: 50px;
+    background-color: #070101;
+    width: 100%;
+    
+    
     
 }
 .footerContainer a{
@@ -88,7 +146,7 @@ footer{
 }
 .footerContainer a i{
     font-size: 1.5em;
-    color: #6a0ced;
+    color: #2d2237;
     opacity: 0.9;
 }
 .footerContainer a:hover{
@@ -96,6 +154,6 @@ footer{
     transition: 0.5s;
 }
 .mail{
-    color: #d8d4d4;
+    color: #181212;
 }
     
