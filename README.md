@@ -1,1 +1,1 @@
-this is a rapo which is store the some uniqe HTML and CSS Projects
+this is a repository which is store the some uniqe HTML and CSS Projects
