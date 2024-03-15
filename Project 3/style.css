@@ -102,8 +102,8 @@ button:hover{
 
 }
 .textbg{
-    background: #020202;
-    color: #f5f1f1;
+    
+    color: #efedf1;
     padding: 20px;
     border-radius: 20px;
 }
@@ -120,40 +120,34 @@ button:hover{
     color: #d8d4d4;
 }
 footer{
-    margin: 50px;
-    text-align: end;
     height: 50px;
-    
    
-    
 }
 .footerContainer{
     display: flex;
-    margin-inline: 50px;
-    background-color: #070101;
-    width: 100%;
-    
-    
-    
+    background-color: #60625c;
+    justify-content: center;
+    justify-content: space-around;
+  
 }
 .footerContainer a{
     text-decoration: none;
     padding: 10px;
-    background-color: #7eabbe;
+    background-color: #666562;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 100px;
     
 }
 .footerContainer a i{
     font-size: 1.5em;
-    color: #2d2237;
+    color: #f3f1f5;
     opacity: 0.9;
 }
 .footerContainer a:hover{
-    background-color: #fefbfb;
+    background-color: #11e959;
     transition: 0.5s;
 }
 .mail{
-    color: #181212;
+    color: #e6d8d8;
 }
     
