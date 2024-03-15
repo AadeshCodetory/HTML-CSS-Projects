@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: buttermilk;
-    src: url();
-}
+
 .container{
     background-image: url(./images/bg1.jpg);
     background-size: cover;
